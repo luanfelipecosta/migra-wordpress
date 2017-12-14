@@ -1,0 +1,15 @@
+.our-service.home2 i{background: #DE3C2F;}
+.skill-rect{background: #DE3C2F;}
+.post-content.home2 ul li a{background: #DE3C2F; border-color: #c7362a;}
+.post-content.pull-right ul li a.blue:hover{background: #DE3C2F; border-color: #c7362a;}
+.home2 .single-member span{color: #DE3C2F;}
+.counting.home2 h2{color: #DE3C2F;}
+.contact-address.home2 .common-title{color: #DE3C2F;}
+.blog-content.home2 .custom-button{background: #DE3C2F;}
+.menu ul li.active > a{
+    font-weight: 700;
+}
+.inner-nav ul li.active > a {
+  color: #DE3C2F;
+  font-weight: 700;
+}

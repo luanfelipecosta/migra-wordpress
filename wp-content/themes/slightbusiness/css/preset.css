@@ -1,0 +1,296 @@
+/*
+  Theme Name: Slight Business
+  Theme URL: http://www.themewar.com/html/sb
+  Author: Themewar
+  Author URI: http://www.themewar.com
+  Description: Slight Business  - Responsive Corporate Site Template
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Home One
+    i. Header Area
+    ii. Menu ( Dropdown / Fixed )
+    iii. Slider Area
+    iv. Feature Area
+    v. Team Area
+    vi. About Company
+    vii. Skill Area
+    vii. Testimonial Area
+    xi. Our Service Area
+    x. Latest post Area
+    xi. Map Area 
+    xii. Blog Area
+    xii. Footer Area
+2. Home Two
+    i. Header Area
+    ii. Feature Area
+    iii. Service Area
+    iv. Skill Area
+    v. Team Member Area
+    vi. Gallery Area
+    vii. About Company Area
+    viii. Contact Area 
+    ix. Blog Area
+3. Home Three
+    i. Header Area
+    ii. Latest Project Area
+    iii. About Company Area
+    iv. Gellery Area
+    v. Map Area
+    vi. Blog Area
+4. Home Dark
+    i. Headear Area
+    ii. Feature Area 
+    iii. Gellery Area
+    iv. About Company area
+5. Folio Page One
+    i. Header Area
+    ii. Bread Crumbs Area
+6. Portfolio Page Two
+7. Portfolio Page Three
+8. Portfolio Page Four
+9. Blog With Sidebar Page
+10. Blog Grid Page
+11. Blog Post Page
+12. Contact Page
+    i. Subscribe Section
+13. Events Page
+14. Event Details Page
+15. About Us Page
+16. Member Page
+17. 404 Page
+18. Back To Top
+19. Loader
+
+==========================================================================*/
+/*============================= Typhography Settings =========================*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+html, body{
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+}
+body.bgOne{background: url(../images/bg/box/1.png) repeat #FFF;}
+body.bgTwo{background: url(../images/bg/box/2.png) repeat #FFF;}
+body.bgThree{background: url(../images/bg/box/3.png) repeat #FFF;}
+body.bgFour{background: url(../images/bg/box/4.png) repeat #FFF;}
+body.bgFive{background: url(../images/bg/box/5.jpg) repeat #FFF;}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a, a:hover, a:focus{
+    color: #4c4c4c;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 700ms ease-in-out;
+    -moz-transition: all 700ms ease-in-out;
+    -ms-transition: all 700ms ease-in-out;
+    -o-transition: all 700ms ease-in-out;
+    transition: all 700ms ease-in-out;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    color: #4c4c4c;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+h1 span{
+    display: block;
+    font-weight: 100; 
+}
+h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+h2 span{
+    display: block;
+    font-weight: 100; 
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: .79;
+}
+h3 span{
+    display: block;
+    font-weight: 100;
+}
+h4{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: .79;
+}
+h4 span{
+    display: block;
+    font-weight: 100;
+}
+p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: #7f7f7f;
+}
+.common-title{
+    font-size: 60px;
+    line-height: .75;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.common-title span{
+    display: block;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.common-subtitle{
+    color: #4c4c4c;
+    font-size: 20px;
+    font-weight: 100;
+    margin: -10px auto 45px;
+    width: 60%;
+    line-height: 30px;
+}
+/*============================= Common Contents Style =========================*/
+img{
+    width: 100%;
+    height: auto;
+}
+.no-padding{
+    padding: 0;
+}
+.no-padding-left{
+    padding-left: 0;
+}
+.no-padding-right{
+    padding-right: 0;
+}
+blockquote{
+    border-left: 10px solid #de3c2f;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    padding: 15px 0 15px 20px;
+}
+/*============================= Margin And Padding Settings =========================*/
+.no-padding{
+    padding: 0;
+}
+.no-padding-left{
+    padding-left: 0;
+}
+.no-padding-right{
+    padding-right: 0;
+}
+.noMargin{
+    margin: 0px;
+}
+.noMarginBottom{
+    margin-bottom: 0px !important;
+}
+.noPaddingBotton{
+    padding-bottom: 0 !important;
+}
+.noMarginRight{
+    margin-right: 0px !important;
+}
+
+/*============================= color Settings =========================*/
+.white{
+    color: #fff;
+}
+.blackash{
+    color: #4c4c4c;
+}
+
+/*============================= Button ====================================*/
+.sb_button{
+    background: none repeat scroll 0 0 #de3c2f;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    height: 60px;
+    padding: 27px 0 13px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 700ms ease 0s;
+    width: 170px;
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    -webkit-transition: all ease 700ms;
+    -ms-transition: all ease 700ms;
+    -o-transition: all ease 700ms;
+}
+.sb_button:hover{
+    background: #4c4c4c;
+    color: #FFF;
+}
+input[type="submit"].sb_button{
+    padding: 13px 0 13px;
+}
+/*============================= Section Title ====================================*/
+.commonPage{
+    padding: 80px 0px;
+    position: relative;
+}
+.commonPadding120{
+    padding: 120px 0px;
+}
+/*============================= Social Settings ====================================*/
+.comonSocial{
+    text-align: center;
+}
+.comonSocial li{
+    display: inline-block;
+}
+.comonSocial li a{
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    height: 60px;
+    margin-right: 6px;
+    padding-top: 13px;
+    text-align: center;
+    width: 60px;
+}
+.comonSocial li.fac a{
+    background: none repeat scroll 0 0 #507cbe;
+}
+.comonSocial li.twi a{
+    background: none repeat scroll 0 0 #00abef;
+}
+.comonSocial li.goo a{
+    background: none repeat scroll 0 0 #de3c2f;
+}
+.comonSocial li:last-child a{
+    margin-right: 0px;
+}
+.comonSocial li a i{
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    -webkit-transition: all ease 700ms;
+    -ms-transition: all ease 700ms;
+    -o-transition: all ease 700ms;
+}
+.comonSocial li a:hover i{
+    text-shadow: 0 0 4px rgba(0, 0, 0, .5);
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+.comonSocial li a:hover{
+    text-shadow: 0 0 4px rgba(0, 0, 0, .5);
+}
